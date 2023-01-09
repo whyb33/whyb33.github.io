@@ -28,7 +28,9 @@ section {
 
 }
 .container {
-    border: 5px solid #FFFADE;
+    border: 3px solid #FFFADE;
+    border-radius: 25px;
+    box-shadow: 6px 4px 8px #5f4664;
     max-width: 500px;
     max-height: 300px;
     margin: auto;
@@ -37,11 +39,21 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
-    text-align: center;
+    line-height: 1.5;
+    text-shadow: 6px 4px 8px #5f4664;
 }
 body {
    
 }
+
+/*.navbar {
+    width: 5rem;
+    height: 100vh;
+    position: fixed;
+    background-color: #5f4664;
+    transition: width 600ms ease;
+    overflow: scroll;
+}*/
 
 @keyframes animatebg {
     0%{
