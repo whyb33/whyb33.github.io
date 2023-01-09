@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'Nerd';
+    src: url(Fonts/mononoki-Regular\ Nerd\ Font\ Complete\ Mono.ttf);
+}
+/*Background*/
+.bg-gradient {
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(45deg,#33224D, #4B4453, #B0A8B9)
+}
+
+h1 {
+    text-align: center;
+    font-size: large;
+    font-family: 'Nerd';
+    color: #FFFADE;
+}
+
+p {
+    text-align: center;
+    font-family: 'Nerd';
+    color: #FFFADE;
+}
